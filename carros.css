@@ -1,0 +1,40 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: rgba(58, 21, 223, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: rgba(241, 158, 5, 0.726);
+    padding: 2rem;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 10px;
+
+}

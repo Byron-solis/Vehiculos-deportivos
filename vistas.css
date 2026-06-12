@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(58, 21, 223, 0.541);
+}
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: black;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 48, 0);
+    font-size: 20;
+    margin-bottom: 40;
+}
+
+div {
+display: flex;
+justify-content: center;
+}

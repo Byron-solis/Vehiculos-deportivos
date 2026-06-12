@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(58, 21, 223, 0.541);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.nav-cyber ul {
+
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    background-color: rgba(58, 21, 223, 0.541);
+    padding: 5px;
+    border-radius: 15px;
+    width: 600px;
+}
+
+.nav-cyber a {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    display: block;
+    position: relative;
+    transition: color 0.10s ease;
+}
+
+.nav-cyber a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:orange;
+    box-shadow: 0 0 10px orange;
+    transition: width 0.10s ease;
+}
+
+.nav-cyber a.active, .nav-cyber a:hover {
+    color: white;
+}
+
+.nav-cyber a.active::after, .nav-cyber a:hover::after{
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    text-align: center;
+    font-size: 70px;
+
+}
+
+p {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+.hello {
+    width: 100%;
+    position: relative;
+    left: 30%;
+}
